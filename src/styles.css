@@ -1,18 +1,43 @@
 body {
+  background-color: #1c1b24;
+  color: #ffffff;
+}
+header {
+  background-color: #1c1b24;
+  color: white;
+  clear: both;
+  text-align: left;
+}
+h1 {
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 24px;
   text-align: center;
 }
-
-h1 {
-  color: hotpink;
-  font-family: cursive;
-  font-size: 55px;
+h2 {
+  font-family: Arial;
+  font-size: 18px;
+  clear: both;
 }
-
 p {
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.5em;
+  font-family: Arial;
+  line-height: 200%;
 }
-
-a {
-  color: dodgerblue;
+img {
+  border: 2px solid;
+  margin: 10px;
+  padding: 4px;
+  max-width: 100%;
+}
+ul {
+  float: left;
+}
+footer {
+  background-color: #1c1b24;
+  color: white;
+  clear: both;
+  text-align: right;
+}
+div {
+  background-color: #ffffff;
 }
