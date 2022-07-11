@@ -55,6 +55,17 @@ section:nth-child(even) {
   padding: 3rem;
 }
 
+.header .credit {
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  padding-top: 15%;
+}
+
+.header .credit span {
+  color: #ff0;
+}
+
 .header .logo {
   font-size: 2.5rem;
   color: #fff;

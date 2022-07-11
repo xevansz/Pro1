@@ -65,20 +65,6 @@ section:nth-child(even) {
   text-transform: uppercase;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 1.2rem 3rem;
-  cursor: pointer;
-  color: #fff;
-  background: #263238;
-  font-size: 1.7rem;
-}
-
-.btn:hover {
-  background: #44bb6a;
-}
-
 .header {
   position: fixed;
   top: 0;
@@ -132,27 +118,6 @@ section:nth-child(even) {
 
 .header .credit span {
   color: #ff0;
-}
-
-#menu-btn {
-  position: fixed;
-  top: 1rem;
-  right: 2rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2.5rem;
-  background: #44bb6a;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  z-index: 10000;
-  display: none;
-}
-
-#menu-btn.fa-times {
-  background: #fff;
-  color: #263238;
 }
 
 .home {
@@ -558,56 +523,3 @@ section:nth-child(even) {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-.divTable {
-  display: table;
-  width: auto;
-  height: auto;
-  background-color: #ffffff;
-  border: 1px solid #44bb6a;
-  border-spacing: 5px;
-  padding: auto;
-  margin: auto;
-}
-
-.divRow {
-  display: table-row;
-  width: auto;
-}
-
-.divCell {
-  float: left;
-  display: table-column;
-  width: 200px;
-  background-color: #8ddca6;
-}
-
-th {
-  background-color: #44bb6a;
-  color: #fff;
-  padding: 0.5em 1em;
-}
-
-td {
-  border-top: 1px solid #eee;
-  padding: 0.5em 1em;
-}
-
-input {
-  cursor: pointer;
-}
-
-/* Column types */
-th.missed-col {
-  background-color: #f00;
-}
-
-td.missed-col {
-  background-color: #ffecec;
-  color: #f00;
-  text-align: center;
-}
-
-.name-col {
-  text-align: left;
-}
