@@ -40,9 +40,7 @@ body {
 }
 
 section {
-  padding: 3rem 15%;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  padding: 3rem 5%;
 }
 
 section:nth-child(even) {
