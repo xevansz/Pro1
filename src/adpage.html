@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Admin</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css" />
+
+   <!-- custom js file link  -->
+   <script src="js/script.js" defer></script>
+</head>
+
+<body>
+   <!-- header section starts  -->
+
+   <header class="header">
+      <a href="#" class="logo">
+         <i class="fas fa-graduation-cap"></i> CompEduLim
+      </a>
+
+      <nav class="navbar">
+         <a href="#"> <i class="fas fa-home"></i> Dashboard </a>
+         <a href="#"> <i class="fas fa-building"></i> Projects </a>
+         <a href="#"> <i class="fas fa-coins"></i> Finance </a>
+         <a href="#"> <i class="fas fa-list"></i> To Do List </a>
+         <a href="#tut"> <i class="fas fa-user"></i>Users</a>
+         <a href="#"> <i class="fas fa-address-card"></i> Profile </a>
+         <a href="index.html"> <i class="fas fa-angle-right" aria-hidden="true"></i> Sign out </a>
+      </nav>
+
+      <p class="credit">
+         @2022<span>CompEduLimited</span>, Inc
+      </p>
+   </header>
+
+   <!-- header section ends -->
+
+   <!--Search Bar-->
+   <div class="container">
+      <input type="text" placeholder="Search...">
+      <div class="search"></div>
+   </div>
+
+   <!--Teacher section starts-->
+   <section class="teach" id="tut">
+      <h1>Tutor Details</h1>
+      <table rules="none" width="88%">
+         <thead>
+            <tr>
+               <th class="name-col">Tutor Names</th>
+               <th class="name-col">No of Courses Taught</th>
+               <th class="name-col">Name of Courses</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td class="name-col">Tut1</td>
+               <td>2</td>
+               <td>c1,c2</td>
+            </tr>
+            <tr>
+               <td class="name-col">Tut2</td>
+               <td>3</td>
+               <td>c1,c2,c3</td>
+            </tr>
+            <tr>
+               <td class="name-col">Tut3</td>
+               <td>2</td>
+               <td>c1,c2</td>
+            </tr>
+            <tr>
+            </tr>
+         </tbody>
+      </table>
+   </section>
+   <!--Teacher section ends-->
+
+
+   <!--Student section starts-->
+   <section class="stud" id="stur">
+      <h1>Student Details</h1>
+      <table rules="none" width="88%">
+         <thead>
+            <tr>
+               <th class="name-col">Student Names</th>
+               <th class="name-col">Courses Purchased</th>
+               <th class="name-col">Courses Intrested</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td class="name-col">Stud1</td>
+               <td>Course1</td>
+               <td>Course1</td>
+            </tr>
+            <tr>
+               <td class="name-col">Stud2</td>
+               <td>Course2</td>
+               <td>Course3</td>
+            </tr>
+            <tr>
+               <td class="name-col">Stud3</td>
+               <td>Course2</td>
+               <td>Course3</td>
+            </tr>
+            <tr>
+            </tr>
+         </tbody>
+      </table>
+   </section>
+   <!--Student section ends-->
+
+</body>
+
+</html>
